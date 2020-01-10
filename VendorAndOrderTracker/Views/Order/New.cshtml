@@ -1,0 +1,15 @@
+@using VendorAndOrder.Models;
+
+<h1>Add an order for @Model.Name below:</h1>
+
+<form action="/vendor/@Model.Id" method="post">
+    <label for="orderTitle">Type in your order's title below</label>
+    <input id="orderTitle" name="orderTitle" type="text">
+    <label for="orderDescription">Type in a description of the order below</label>
+    <input id="orderDescription" name="orderDescription" type="text">
+    <label for="orderPrice">Type in your order's price below</label>
+    <input id="orderPrice" name="orderPrice" type="number">
+    <label for="orderDate">Type in your order's date below</label>
+    <input id="orderDate" name="orderDate" type="number">
+    <button type="submit">Save order</button>
+</form>
