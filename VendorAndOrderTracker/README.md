@@ -1,37 +1,36 @@
-# _{Application Name}_
+# _Vender and Order Tracker_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Web app that a baker can use to track vendor customers and track each vendor's orders , 1/10/2020_
 
-#### By _**{List of contributors}**_
+#### By _**Will Quanstrom**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This web app allows a bakery owner to create a list of vendors and add different orders for each vendor. A collection of web pages are routed together to form a CRUD app._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone from github_
+* _Navigate to VendorAndOrderTracker file within the .Solution parent and command "dotnet restore" in terminal_
+* _"Dotnet run" and home page will be hosted locally at address listed in terminal_
+* _Navigate to homepage_
+* _Follow instructions and links to CRUD a bakery list_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+No known bugs at this time.
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_wquanstr215@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_C#, ASP.NET Core MVC, Razor_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT liscense 2020*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Will Quanstrom_**
