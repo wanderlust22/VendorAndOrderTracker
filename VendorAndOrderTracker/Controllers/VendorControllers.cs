@@ -27,5 +27,12 @@ namespace VendorAndOrder.Controllers
         return RedirectToAction("Index");
     }
 
+    [HttpGet("/vendor/{vendorId}")]
+    public ActionResult Show(int vendorId)
+    {
+        Vendor displayVendor = Vendor.Find(vendorId);
+        return View(displayVendor);
+    }
+
   }
 }
