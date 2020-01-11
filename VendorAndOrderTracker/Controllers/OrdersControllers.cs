@@ -14,15 +14,10 @@ namespace VendorAndOrder.Controllers
         }
 
         [HttpGet("/vendor/{vendorId}/order/{orderId}")]
-        public ActionResult Show(int vendorId, int orderId)
+        public ActionResult Show(int orderId)
         {
-            Dictionary<string, object> model = new Dictionary<string, object>();
-            Vendor selectedVendor = Vendor.Find(vendorId);
             Order selectedOrder = Order.Find(orderId);
-            List<Order> vendorOrders = selectedVendor.Orders;
-            model.Add("vendor", selectedVendor);
-            model.Add("orders", vendorOrders);
-            return View(model);
+            return View(selectedOrder);
         }
   }
 }
